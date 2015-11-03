@@ -19,6 +19,8 @@ test_Login_To_Citrix - just simple login and assert title
 testScheduleWebinar - It depends on login method, if second method will run only test_Login_To_Citrix  method is successful, 
 and it reads the data values from excel file using data provider.
 
+POM.xml - maveb config,
+
 2. UIElements: Has one java File. Contains all the required UI element Ids.
 
 TODO: Further Automation possiblities:
@@ -47,4 +49,11 @@ This project can be further enhanced by automating following test cases:
 11. Verify browser warning message for different system requirements and verify user clicks on X mark on that warning message should close.
 
 12. Verify Logout should invalidtae the session, using browesr back button shouldn't go to the previous page the user visited after logout.
+
+
+Build and Run Instructions:
+- Open the projects folders in Eclipse
+- open the ScheduleWebinar project -> src->test-> java -> com->citrix->webinars->WebinarTest.java and right click and run as Testngtest
+
+
 
