@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22438" started-at="2015-11-03T06:23:40Z" finished-at="2015-11-03T06:24:02Z">
+    <groups>
+      <group name="Regressions">
+        <method signature="WebinarTest.testScheduleWebinar(com.citrix.webinars.WebinarObject)[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="testScheduleWebinar" class="com.citrix.webinars.WebinarTest"/>
+      </group> <!-- Regressions -->
+      <group name="LightRegressions">
+        <method signature="WebinarTest.test_Login_To_Citrix()[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="test_Login_To_Citrix" class="com.citrix.webinars.WebinarTest"/>
+      </group> <!-- LightRegressions -->
+    </groups>
+    <test name="Default test" duration-ms="22438" started-at="2015-11-03T06:23:40Z" finished-at="2015-11-03T06:24:02Z">
+      <class name="com.citrix.webinars.WebinarTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="init" is-config="true" duration-ms="9012" started-at="2015-11-02T22:23:40Z" finished-at="2015-11-02T22:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test_Login_To_Citrix()[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="test_Login_To_Citrix" duration-ms="2446" started-at="2015-11-02T22:23:49Z" finished-at="2015-11-02T22:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_To_Citrix -->
+        <test-method status="PASS" signature="testScheduleWebinar(com.citrix.webinars.WebinarObject)[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="testScheduleWebinar" duration-ms="8460" started-at="2015-11-02T22:23:51Z" data-provider="webinarData" depends-on-methods="com.citrix.webinars.WebinarTest.test_Login_To_Citrix" finished-at="2015-11-02T22:24:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.citrix.webinars.WebinarObject@7c1e2a9e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScheduleWebinar -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.citrix.webinars.WebinarTest@6debcae2]" name="finish" is-config="true" duration-ms="2497" started-at="2015-11-02T22:24:00Z" finished-at="2015-11-02T22:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.citrix.webinars.WebinarTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
