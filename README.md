@@ -3,14 +3,11 @@
 Citrix QE Selenium Automation Task (Senior/Staff):
 
 This project automates all the test steps mentioned in 'Citrix QE Selenium Automation Task challenge'. Tried to accommodate all the suggested requirements,
-
-This intializes chrome webdriver and also reads the properties file and assign properies object for usename and password 
-in the before class test method.
+This intializes chrome webdriver and also reads the properties file and assign properies object for usename and password  in the before class test method.
 
 Uploaded are two project folders:
 
-1.schedule-webinars:
-
+1. schedule-webinars: 
 Month.java - enum class for month, it has methods to return days in month per month name, Month number per month name
 
 WebinarObject.java - Created Webinar Object with all the member fields of Schedule a webinar 
@@ -22,14 +19,13 @@ test_Login_To_Citrix - just simple login and assert title
 testScheduleWebinar - It depends on login method, if second method will run only test_Login_To_Citrix  method is successful, 
 and it reads the data values from excel file using data provider.
 
+
 2. UIElements: Has one java File. Contains all the required UI element Ids.
 
-
 TODO: Further Automation possiblities:
-
 This project can be further enhanced by automating following test cases:
 
-1. Verify validation messages, if user doesn't provide the Title and decription, if those are mandatory fields and length limitations on those fields
+1. Verify validation messages, if user doesn't provide the Title and decription, if those are mandatory fields and length limitations on those fields.
 
 2. Verify selecting different options for occurs,webinar timezone, webinar language drop down and make sure  user selection appears correctly in the selection box and also after clicking on schedule button in my webinars page by data driven method using excel file.
 
