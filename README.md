@@ -52,7 +52,8 @@ This project can be further enhanced by automating following test cases:
 
 
 Build and Run Instructions:
-- Open the projects folders in Eclipse
+- Open the projects folders in Eclipse IDE
+- Build all the projects
 - open the ScheduleWebinar project -> src->test-> java -> com->citrix->webinars->WebinarTest.java and right click and run as Testngtest
 
 
