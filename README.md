@@ -19,7 +19,6 @@ test_Login_To_Citrix - just simple login and assert title
 testScheduleWebinar - It depends on login method, if second method will run only test_Login_To_Citrix  method is successful, 
 and it reads the data values from excel file using data provider.
 
-
 2. UIElements: Has one java File. Contains all the required UI element Ids.
 
 TODO: Further Automation possiblities:
