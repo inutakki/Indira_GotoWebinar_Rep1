@@ -55,7 +55,7 @@ public class WebinarTest
 	 */
    @BeforeClass(alwaysRun=true)
    public void init()throws Exception{
-	   System.setProperty("webdriver.chrome.driver", "C:\\Eclipse_workspaces\\demo_workspace\\schedule-webinars\\resources\\chromedriver\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "resources\\chromedriver\\chromedriver.exe");
 	   driver = new ChromeDriver();
 	   wait = new WebDriverWait(driver,30);
 	   driver.get("http://www.gotomeeting.com/online/webinar");
@@ -110,7 +110,7 @@ public class WebinarTest
      * Schedule a Webinar using data reading from Excel sheet and create WebinarObject and
      * Pass it to the method using DataProvider 
      */
-   @Test(dependsOnMethods = "test_Login_To_Citrix", groups = {"Regressions"}, dataProvider ="webinarData" )
+   @Test(enabled = false, dependsOnMethods = "test_Login_To_Citrix", groups = {"Regressions"}, dataProvider ="webinarData" )
     public void testScheduleWebinar(WebinarObject web)throws Exception{
 	   	
 	   	driver.findElement(By.xpath(LoginPage.Webinars.button_Schedule_Webinar)).click();
